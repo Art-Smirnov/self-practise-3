@@ -1,0 +1,11 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  color: $accent;
+  @include fonts(36px, 700, 1.82, 0.1em);
+  text-transform: uppercase;
+
+  &__icon {
+    margin-right: 20px;
+  }
+}
